@@ -88,8 +88,8 @@ R<sub>curve</sub> = (1 + (2.A.Y + B)<sup>2</sup>) <sup>3/2</sup> / 2.A
 
 ## Problems / issues in implementation of this project:
 - In this implementation we are fitting the polynomial based on Histogram based search algorithm. The performance can be improved by using different more Advanced Lane detection algorithms. Also there only few criterias used for validation of line correctness, performance can be increased by utilizing validation criteria like :
-- lane width is in defined borders
-- lane lines have the same concavity
-- lane curvature, distance from the center, polynomial coefficients and so on.. don't differ a lot from the same values from the previous frame
+    lane width is in defined borders
+    lane lines have the same concavity
+    lane curvature, distance from the center, polynomial coefficients and so on.. don't differ a lot from the same values from the previous frame
 
 - [Here](./challeneg_video_output.mp4) you can see how above issues causes the deflections in the lane line detection.
