@@ -70,7 +70,7 @@ dst = np.float32([[325,0],[1000,0],[900,720],[300,720]])
 ![alt text][image5]
 
 ### Computing Radius of Curvature and Car Position:
-- To get the redius in terms of real world, convert x and y from pixels space to meters:
+- To get the radius in terms of real world, convert x and y from pixel space to meters:
 ```python
     ym_per_pix = 3.048/100 # meters per pixel in y dimension, lane line is 10 ft = 3.048 meters
     xm_per_pix = 3.7/378 # meters per pixel in x dimension, lane width is 12 ft = 3.7 meters
@@ -79,7 +79,7 @@ dst = np.float32([[325,0],[1000,0],[900,720],[300,720]])
 R<sub>curve</sub> = (1 + (2.A.Y + B)<sup>2</sup>) <sup>3/2</sup> / 2.A
 - And then you can get the average lane curvature of the two lanes.
 - For car position, you know that camera is on the center of the car. Idealy, the position of the car is in the middle of the two lane line.
-- so by finding the difference between center of the image and middle point of the two lanes we can find the position of the car from its center location.
+- So by finding the difference between center of the image and middle point of the two lanes we can find the position of the car from its center location.
 
 ### Final Output:
 - Once all the blocks of pipeline are executed the final output will look something like this:
