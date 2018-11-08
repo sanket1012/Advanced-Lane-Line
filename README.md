@@ -1,5 +1,5 @@
 # **Project: Finding Lane Lines on the Road-Advanced** 
-### This project is advanced version of the simple [Lane Line Detection](___) algorithm uses computer vision and image processing tecniques to detect the Lane Lines that are in the visible range of the car. Following explained is an overview of different steps involved in the building block of the entire Image Pipeline, potential shortcomings in the current method and area of improvement.
+### This project is advanced version of the simple [Lane Line Detection](https://github.com/sanket1012/FindingLaneLines) algorithm uses computer vision and image processing tecniques to detect the Lane Lines that are in the visible range of the car. Following explained is an overview of different steps involved in the building block of the entire Image Pipeline, potential shortcomings in the current method and area of improvement.
 
 ## Overview
 **The goals / steps of this project are the following:**
@@ -44,7 +44,7 @@
     - R-channel of RGB colorspace is pretty good to find required lines in some conditions.
     - L-channel of LUV colorspace for the white line.
     - B-channel of LAB colorspace may be good for the yellow line.
-- Here we will also perform gaussian bluring, for smoothening of any noise or sharp edges, and Opening Morphological Operation, which is useful in closing small holes inside the foreground objects, or small black points on the object (cv2.morphologyEx())[https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html]
+- Here we will also perform gaussian bluring, for smoothening of any noise or sharp edges, and Opening Morphological Operation, which is useful in closing small holes inside the foreground objects, or small black points on the object [cv2.morphologyEx()](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html)
 ![alt text][image3]
 
 ### Perspective Transform:
