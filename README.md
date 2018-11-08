@@ -18,9 +18,9 @@
 [image1]: ./camera_cal/undistorted/cal1.jpg
 [image2]: ./test_outputs/undistorted_test6.jpg
 [image3]: ./test_outputs/thresholded_image_test6.jpg
-[image4]: ./test_outputs/warped_image_test3.jpg
-[image5]: ./test_outputs/polyfitted.png
-[image6]: ./test_outputs/final_image_test3.jpg
+[image4]: ./test_outputs/warped_image_test6.jpg
+[image5]: ./test_outputs/search_region_test6.jpg
+[image6]: ./test_outputs/final_image_test6.jpg
 
 ## Brief Explaination of each step:
 
